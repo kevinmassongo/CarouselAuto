@@ -34,3 +34,13 @@ img{
         height: 300px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    h1{
+        font-size: 1rem;
+    }
+    .container{
+        width: 250px;
+        height: 200px;
+    }
+}
