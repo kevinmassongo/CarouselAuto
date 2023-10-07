@@ -2,7 +2,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
+    font-family: 'Poppins', sans-serif
 }
 
 .container{
@@ -21,4 +23,10 @@ img{
     height: 400px;
     width: 500px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 425px) {
+    h1{
+        font-size: 1.2rem;
+    }
 }
