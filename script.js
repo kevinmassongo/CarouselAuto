@@ -7,7 +7,7 @@ function run(){
     if(index>imgs.length -1){
         index = 0
     }
-    imgsContainer.style.transform = `translateX(${-index * 500}px)`
+    imgsContainer.style.transform = `translateX(${-index * 100}%)`
 }
 
 setInterval(run, 2000)
