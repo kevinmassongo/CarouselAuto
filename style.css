@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 400px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.container-images{
+    display: flex;
+    transform: translateX(0);
+    transition: all 0.5s linear;
+}
+
+img{
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
